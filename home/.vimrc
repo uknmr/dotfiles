@@ -6,6 +6,7 @@ scriptencoding utf-8 " マルチバイト文字を使用するので宣言
 " ------------------------------
 set nobackup " バックアップファイルを作成しない
 set noswapfile " ゴミが残るので、スワップファイルは作成しない
+set noundofile " .{file-name}.un~を作成しない
 set clipboard=unnamed,autoselect " ヤンクと選択をクリップボードにコピー
 set autoread " 外部変更の自動読込
 set laststatus=2 " ステータスラインを表示
