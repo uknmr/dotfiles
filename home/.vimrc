@@ -15,6 +15,8 @@ set cmdheight=1 "コマンドラインの行数
 set showcmd " 入力中のコマンドを表示
 set wildmenu " コマンドの補完候補を表示
 set number " 行番号を表示
+highlight LineNr ctermfg=7
+highlight CursorLineNr cterm=bold ctermfg=0 ctermbg=3
 set cursorline " 現在行の可視化
 set ruler " カーソルの位置を表示
 set showmatch " 括弧を強調
