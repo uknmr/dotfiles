@@ -1,6 +1,7 @@
 # ------------------------------
 # alias
 # ------------------------------
+alias ls='ls -G'
 alias ll='ls -la'
 alias be='bundle exec'
 
