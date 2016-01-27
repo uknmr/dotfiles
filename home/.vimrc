@@ -122,6 +122,8 @@ noremap k gk
 " 通常動作も残しておく
 noremap gj j
 noremap gk k
+" ハイライトを止める
+nnoremap <silent> <Esc><Esc> :<C-u>nohlsearch<CR>
 " C-cでInsertLeaveが反応しないためEscに統一
 inoremap <C-c> <Esc>
 " Tabで次の候補を選択
