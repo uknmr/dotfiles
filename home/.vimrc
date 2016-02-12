@@ -90,6 +90,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'pangloss/vim-javascript' " Javascriptのsyntaxhilight
   Plug 'Shougo/neocomplete' " 自動入力補完
   Plug 'cohama/lexima.vim' " 括弧の自動入力補完
+  Plug 'mattn/emmet-vim' " Zen Coding
 call plug#end()
 
 " ------------------------------
@@ -128,3 +129,5 @@ nnoremap <silent> <Esc><Esc> :<C-u>nohlsearch<CR>
 inoremap <C-c> <Esc>
 " Tabで次の候補を選択
 inoremap <expr><Tab> pumvisible()? "\<C-n>" : "\<Tab>"
+" Zen CodingのExpandをTabで発動
+imap <expr><tab> emmet#expandAbbrIntelligent("\<Tab>")
