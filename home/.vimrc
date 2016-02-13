@@ -115,6 +115,11 @@ let g:neocomplete#smart_case = 1 " 大文字が入力されるまで大文字小
 autocmd vimrc InsertLeave * pclose " インサートモードから抜ける時にプレビューを閉じる
 
 " ------------------------------
+" Zen Coding
+" ------------------------------
+let g:user_emmet_leader_key='<C-e>'
+
+" ------------------------------
 " Key Mapping
 " ------------------------------
 " 表示行単位で移動（折り返しでの振る舞い
@@ -130,4 +135,4 @@ inoremap <C-c> <Esc>
 " Tabで次の候補を選択
 inoremap <expr><Tab> pumvisible()? "\<C-n>" : "\<Tab>"
 " Zen CodingのExpandをTabで発動
-imap <expr><tab> emmet#expandAbbrIntelligent("\<Tab>")
+" imap <expr><tab> emmet#expandAbbrIntelligent("\<Tab>")
