@@ -30,7 +30,7 @@ set ruler " カーソルの位置を表示
 set showmatch " 括弧を強調
 set ambiwidth=double " マルチバイト文字や記号でカーソルがずれないようにする
 set nowrap " 折り返しなし
-set scrolloff=5 " 余裕を持たせてスクロール
+set scrolloff=3 " 余裕を持たせてスクロール
 set title " タイトルバーにファイル名を表示
 set whichwrap=b,s,h,l,<,>,[,] " カーソルが行頭/行末で止まらないようにする
 set notitle " vimを使ってくれてありがとう
