@@ -19,6 +19,7 @@ set autoread " 外部変更の自動読込
 set laststatus=2 " ステータスラインを表示
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 syntax on
+colorscheme iceberg
 set cmdheight=1 "コマンドラインの行数
 set showcmd " 入力中のコマンドを表示
 set wildmenu " コマンドの補完候補を表示
@@ -128,6 +129,8 @@ noremap k gk
 " 通常動作も残しておく
 noremap gj j
 noremap gk k
+" Escをjjに割り付け
+inoremap <silent> jj <ESC>
 " ハイライトを止める
 nnoremap <silent> <Esc><Esc> :<C-u>nohlsearch<CR>
 " C-cでInsertLeaveが反応しないためEscに統一
