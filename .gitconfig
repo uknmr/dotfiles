@@ -1,24 +1,6 @@
-[color]
-	diff = auto
-[status]
-	diff = auto
-[branch]
-	diff = auto
+# This is Git's per-user configuration file.
 [user]
 	name = uknmr
-	email = y.kinmori@gmail.com
-[alias]
-	lg = log --graph --date-order -C -M --pretty=format:\"<%Cblue%h%Creset> %ad [%C(bold blue)%an%Creset] %Cred%d%Creset %s %Cgreen(%cr)\" --all --date=short
-	lga = log --graph --all --date-order -C -M --pretty=format:\"<%Cblue%h%Creset> %ad [%C(bold blue)%an%Creset] %Cred%d%Creset %s %Cgreen(%cr)\" --all --date=short
-	st = status
-[merge]
-	ff = false
-[filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
-[filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
-[core]
-	excludesfile = /Users/uknmr/.gitignore
+	email = kanamori@mediba.jp
+[ghq]
+	root = ~/projects
