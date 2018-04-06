@@ -1,0 +1,29 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  // 端末のフォント ファミリを制御します。既定値は editor.fontFamily になります。
+  "terminal.integrated.fontFamily": "Ricty Diminished Discord for Powerline",
+  // ターミナルのフォント サイズをピクセル単位で制御します。
+  "terminal.integrated.fontSize": 14,
+  // ダーティ ファイルの自動保存を制御します。有効な値: 'off'、'afterDelay'、'onFocusChange' (エディターがフォーカスを失います)、'onWindowChange' (ウィンドウがフォーカスを失います)。'afterDelay' に設定すると、'files.autoSaveDelay' で遅延を構成できます。
+  "files.autoSave": "afterDelay",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "attr_quotes": "single",
+    },
+    "jsx": {
+      "self_closing_tag": true,
+    },
+  },
+  "[javascript]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+  },
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "explorer.confirmDragAndDrop": false,
+}
