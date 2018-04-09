@@ -1,5 +1,5 @@
 {
-  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnSave": true,
   // 端末のフォント ファミリを制御します。既定値は editor.fontFamily になります。
   "terminal.integrated.fontFamily": "Ricty Diminished Discord for Powerline",
   // ターミナルのフォント サイズをピクセル単位で制御します。
@@ -13,6 +13,7 @@
     "html": {
       "attr_quotes": "single",
     },
+    "javascript": "jsx",
     "jsx": {
       "self_closing_tag": true,
     },
@@ -20,10 +21,30 @@
   "[javascript]": {
     "editor.detectIndentation": false,
     "editor.tabSize": 2,
-    "editor.formatOnSave": true,
+  },
+  "[json]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
   },
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "explorer.confirmDragAndDrop": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.openEditors.visible": 0,
+  "emmet.triggerExpansionOnTab": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "editor.fontFamily": "Ricty Discord",
+  "editor.fontSize": 13,
+  "window.zoomLevel": 0,
+  "explorer.confirmDelete": false,
 }
