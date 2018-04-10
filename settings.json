@@ -43,7 +43,7 @@
     "suppressResultsExplorerNotice": false,
     "suppressShowKeyBindingsNotice": true
   },
-  "editor.fontFamily": "Ricty Discord",
+  "editor.fontFamily": "Ricty Diminished Discord",
   "editor.fontSize": 13,
   "window.zoomLevel": 0,
   "explorer.confirmDelete": false,
