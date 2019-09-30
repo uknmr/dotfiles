@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOT_FILES=( .zshrc .aliases.zsh )
+DOT_FILES=( .zshrc .aliases.zsh .gitconfig )
 
 for file in ${DOT_FILES[@]}
 do
