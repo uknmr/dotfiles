@@ -1,6 +1,0 @@
-# This is Git's per-user configuration file.
-[user]
-	name = uknmr
-	email = kanamori@mediba.jp
-[ghq]
-	root = ~/projects
