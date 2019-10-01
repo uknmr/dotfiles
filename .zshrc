@@ -1,6 +1,6 @@
 source ~/.aliases.zsh
 
-source '~/.zplugin/bin/zplugin.zsh'
+source '/Users/uknmr/.zplugin/bin/zplugin.zsh'
 autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
 
