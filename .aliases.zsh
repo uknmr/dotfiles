@@ -15,6 +15,7 @@ alias gc='g checkout'
 alias gf='g fetch --prune'
 alias gm='g commit'
 alias gp='g push origin'
+alias gpf='g pull --ff'
 
 # ghq
 alias repo='cd $(ghq list -p |peco)'
