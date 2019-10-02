@@ -16,6 +16,9 @@ alias gf='g fetch --prune'
 alias gm='g commit'
 alias gp='g push origin'
 alias gpf='g pull --ff'
+alias gsl='g stash list'
+alias gsp='g stash pop'
+alias gsd='g stash drop'
 
 # ghq
 alias repo='cd $(ghq list -p |peco)'
