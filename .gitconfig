@@ -1,3 +1,16 @@
 [user]
 	name = uknmr
 	email = y.kinmori@gmail.com
+[color]
+	ui = true
+[core]
+	editor = code --wait
+	quotepath = false
+[pager]
+	log = diff-highlight | less
+	show = diff-highlight | less
+	diff = diff-highlight | less
+[interactive]
+	diffFilter = diff-highlight
+[diff]
+	compactionHeuristic = true

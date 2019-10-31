@@ -1,3 +1,5 @@
+export PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
+
 source ~/.aliases.zsh
 
 source '/Users/uknmr/.zplugin/bin/zplugin.zsh'
