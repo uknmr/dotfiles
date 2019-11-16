@@ -17,9 +17,10 @@ alias gm='g commit'
 alias gp='g push origin'
 alias gpf='g pull --ff'
 alias gr='g reset'
+alias gsd='g stash drop'
 alias gsl='g stash list'
 alias gsp='g stash pop'
-alias gsd='g stash drop'
+alias gsu='g stash -u'
 alias gu='gitup'
 
 # ghq
