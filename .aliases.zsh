@@ -4,6 +4,10 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias ll='ls -la'
 
+# docker-compose
+alias dc='docker-compose'
+alias dcps='dc ps'
+
 # git
 alias g='git'
 alias gb='g branch'
