@@ -1,0 +1,43 @@
+
+
+# 💄: Adding or updating the UI and style files.
+# ✨: Introducing new features.
+# 🚸: Improving user experience / usability.
+# ♿️: Improving accessibility.
+# 🚧: Work in progress.
+# 📱: Working on responsive design.
+# 💬: Adding or updating text and literals.
+# 👌: Updating code due to code review changes.
+# 🐛: Fixing a bug.
+# ♻️:: Refactoring code.
+# 🚚: Moving or renaming files.
+# 🔀: Merging branches.
+# 🎨: Improving structure / format of the code.
+# ⚡️: Improving performance.
+# 🔥: Removing code or files.
+# 🚑: Critical hotfix.
+# 📝: Writing docs.
+# 🚀: Deploying stuff.
+# 🎉: Begining a project.
+# ✅: Adding or updating tests.
+# 🔒: Fixing security issues.
+# 🚨: Removing linter warnings.
+# 💚: Fixing CI Build.
+# ⬇️:: Downgrading dependencies.
+# ⬆️:: Upgrading dependencies.
+# 👷: Adding or updating CI build system.
+# 📈: Adding or updating analytics or tracking code.
+# 🐳: Work about Docker.
+# ➕: Adding a dependency.
+# ➖: Removing a dependency.
+# 🔧: Changing configuration files.
+# ✏️: Fixing typos.
+# ⏪: Reverting changes.
+# 📦: Adding or updating compiled files or packages.
+# 👽: Updating code due to external API changes.
+# 📄: Adding or updating license.
+# 💥: Introducing breaking changes.
+# 🍱: Adding or updating assets.
+# 💡: Adding or updating comments in source code.
+# 🏗: Making architectural changes.
+# 💩: Writing bad code that needs to be improved.
