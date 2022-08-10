@@ -16,3 +16,5 @@
 	compactionHeuristic = true
 [commit]
 	template = /Users/u/.gitmessage
+[init]
+	defaultBranch = main
