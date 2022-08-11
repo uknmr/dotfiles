@@ -3,7 +3,8 @@
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 source "${ZINIT_HOME}/zinit.zsh"
 
-export PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH=$PATH:/opt/homebrew/share/git-core/contrib/diff-highlight
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
@@ -33,3 +34,4 @@ eval "$(pyenv init -)"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
+### End of Zinit's installer chunk
